@@ -80,28 +80,8 @@ Created repository as "prasanna-intuji-devops-internship-challenge."
 
 18.Configure Jenkins Build Steps by writting Execute shell commands.
 ------
-#Setting up credentials
-DOCKER_HUB_USERNAME=prasanna751
-DOCKER_HUB_PASSWORD=dckr_pat_lKLxwXVW_JBh8SatnnpE_09tVEo
-IMAGE_NAME=prasanna751/php-image
+![image](https://github.com/Prasanna1020/prasanna-intuji-devops-internship-challenge/assets/151935287/e167e37e-0877-4f0d-8d1f-b438163903ac)
 
-#Tag contains current date and git commit hash
-TAG=$(date +"%Y-%m-%d")_$(git rev-parse --short HEAD)
-
-#Log in to Docker Hub
-docker login -u $DOCKER_HUB_USERNAME -p $DOCKER_HUB_PASSWORD
-
-#Build the Docker image
-docker build -t $IMAGE_NAME:$TAG .
-
-#Push the Docker image to Docker Hub
-docker push $IMAGE_NAME:$TAG
-
-#Remove the Docker image
-docker rmi $IMAGE_NAME:$TAG
-
-#Running docker compose
-echo 'y' | docker-compose up -d
 
 19.Configure Github Webhook and the issue i faced is that github webhooks doesnot take localhost and ip address of local machine so i used ngrok to solve this problem.
 -----
