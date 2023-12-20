@@ -12,10 +12,6 @@ services:
       - php-fpm
 
   php-fpm:
-    image: prasanna:2022
-    build:
-      context: .
-      dockerfile: Dockerfile   # Updated reference to the new Dockerfile
-
+    image: prasanna751/php-image
     volumes:
       - ./src:/var/www/html
