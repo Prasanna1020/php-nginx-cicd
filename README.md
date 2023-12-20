@@ -103,7 +103,7 @@ docker rmi $IMAGE_NAME:$TAG
 #Running docker compose
 echo 'y' | docker-compose up -d
 
-19.Configure Github Webhook and the issue i faced is that github webhooks doesnot take localhost and ip address of local machine so i used ngrok.
+19.Configure Github Webhook and the issue i faced is that github webhooks doesnot take localhost and ip address of local machine so i used ngrok to solve this problem.
 -----
 
 20.Install ngrok.
