@@ -42,7 +42,7 @@ $message = $hello->display();
 
 <div class="message-container">
     <div class="hello-message"><?= $message ?></div>
-    <p>This is a simple example of displaying a message using PHP</p>
+    <p>This is a simple example of displaying a message using try</p>
 </div>
 
 </body>
