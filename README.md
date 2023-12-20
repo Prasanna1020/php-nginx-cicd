@@ -2,7 +2,8 @@
 
 VM installation
 -------
-# Docker install using bash script
+Docker install using bash script
+-----
 #!/bin/bash
 sudo apt-get install -y \
     apt-transport-https \
