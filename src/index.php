@@ -41,8 +41,9 @@ $message = $hello->display();
 <body>
 
 <div class="message-container">
-    <div class="hello-message"><?= $message ?></div>
-    <p>This is a new image example of displaying a message using second try</p>
+    <div class="hello-message">
+        <h1><?= $message ?></h1></div>
+    <p>This is a new image example of displaying a message using jenkins</p>
 </div>
 
 </body>
