@@ -57,6 +57,24 @@ Created repository as "prasanna-intuji-devops-internship-challenge."
 12.Create docker-compose.yml file by creating two containers one for nginx and another for php-fpm
 ----
 
+13.Running Docker Compose up locally to test whether image is pulled or not and to ensure ngnix web server is working correctly.
+----
+
+14.Install Jenkins on Ubuntu
+----
+
+15.Access Jenkins by enabling port 8080
+-----
+
+16.Configure Jenkins by installing plugins like docker.
+-----
+
+17.Create new freestyle project in jenkins and added github url and enabled GitHub hook trigger for GITScm polling.
+-----
+
+18.Configure Jenkins Build Steps by writting Execute shell commands.
+------
+
 
 
 
