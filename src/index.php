@@ -42,7 +42,7 @@ $message = $hello->display();
 
 <div class="message-container">
     <div class="hello-message"><?= $message ?></div>
-    <p>This is a removed image example of displaying a message using second try</p>
+    <p>This is a new image example of displaying a message using second try</p>
 </div>
 
 </body>
