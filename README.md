@@ -1,6 +1,7 @@
 # Project Documentation
 
-# VM installation
+VM installation
+-------
 # Docker install using bash script
 #!/bin/bash
 sudo apt-get install -y \
