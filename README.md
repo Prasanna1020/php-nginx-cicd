@@ -1,9 +1,9 @@
 # Project Documentation
 
-VM installation
+1.VM installation
 -------
 
-Docker install using bash script
+2.Docker install using bash script
 -----
 #!/bin/bash
 sudo apt-get install -y \
@@ -25,36 +25,36 @@ sudo apt-get -y install docker-engine docker-compose
 #add current user to docker group so there is no need to use sudo when running docker
 sudo usermod -aG docker $(whoami)
 
-Git installation
+3.Git installation
 -----
 
-Cloning the Repository provided in the assessment
+4.Cloning the Repository provided in the assessment
 -----
 git clone https://github.com/silarhi/php-hello-world.git
 
-Setting Up Github Repository 
+5.Setting Up Github Repository 
 -----
 Created repository as "prasanna-intuji-devops-internship-challenge." 
 
-Create new index.php file to display message
+6.Create new index.php file to display message
 -----
 
-Create Dockerfie
+7.Create Dockerfie
 ----
 
-Builded Docker image locally to test 
+8.Build Docker image locally to test 
 -----
 
-Pushed Image to Docker Hub
+9.Push Image to Docker Hub
 ----
 
-Installed nginx on ubuntu
+10.Install nginx on ubuntu
 -----
 
-Create default.conf file for nginx
+11.Create default.conf file for nginx
 -----
 
-create docker-compose.yml file by creating two containers one for nginx and another for php-fpm
+12.Create docker-compose.yml file by creating two containers one for nginx and another for php-fpm
 ----
 
 
