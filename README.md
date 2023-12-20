@@ -22,8 +22,41 @@ sudo add-apt-repository \
 sudo apt-get update
 sudo apt-get -y install docker-engine docker-compose
 
-(add current user to docker group so there is no need to use sudo when running docker)
+#add current user to docker group so there is no need to use sudo when running docker
 sudo usermod -aG docker $(whoami)
+
+Git installation
+-----
+
+Cloning the Repository provided in the assessment
+-----
+git clone https://github.com/silarhi/php-hello-world.git
+
+Setting Up Github Repository 
+-----
+Created repository as "prasanna-intuji-devops-internship-challenge." 
+
+Create new index.php file to display message
+-----
+
+Create Dockerfie
+----
+
+Builded Docker image locally to test 
+-----
+
+Pushed Image to Docker Hub
+----
+
+Installed nginx on ubuntu
+-----
+
+Create default.conf file for nginx
+-----
+
+create docker-compose.yml file by creating two containers one for nginx and another for php-fpm
+----
+
 
 
 
