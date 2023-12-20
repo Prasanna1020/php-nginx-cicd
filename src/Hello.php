@@ -15,6 +15,6 @@ class Hello implements HelloInterface
 
     public function display(): string
     {
-        return sprintf('Nothing Changed v%s', self::VERSION);
+        return sprintf('1 changes done v%s', self::VERSION);
     }
 }
