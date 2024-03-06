@@ -1,8 +1,4 @@
-# Final Output
-https://drive.google.com/file/d/1kfAzX7SJAvQSMgmGVE-0dIu7qSNMF8aX/view?usp=sharing
 
-# Screenshots
-Please go to screenshots folder in the code.
 
 # Project Documentation
 
