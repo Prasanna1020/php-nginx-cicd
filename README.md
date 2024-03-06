@@ -2,7 +2,7 @@
 
 # Project Documentation
 
-1.VM installation.
+1.VM installation
 -------
 
 2.Docker install using bash script
